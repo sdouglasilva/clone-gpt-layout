@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+body {
+  background-color: #656565;
+  display: flex;
+  justify-content: center;
+  width: 95vw;
+  height: 95vh;
+  margin-top: 15px;
+}
+.content {
+  background-color: #c64132;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+textarea {
+  resize: none;
+  border: #656565;
+  background-color: #fafafa;
+  outline: none;
+  text-align: justify;
+  font-size: 24px;
+}
+textarea:focus {
+  border: 2px solid red;
+}
